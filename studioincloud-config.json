@@ -19,6 +19,7 @@
     "debugConfigOptions": {
         "stopAtStartup": true,
         "showDevDebugOutput": false,
+        "simulatorArguments": "--logging 0+",
         "debuggerRadio": {
         "1": false,
         "2": true,
