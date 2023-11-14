@@ -638,6 +638,7 @@ SUB_ROUTINE16:
     lw x3, 0x7CC(x28)
     lw x4, 0x7CC(x27)
     lw x5, 0x7CC(x26)
+    // nop                   // FIXME!!
     bne x5, x13, FAIL
     bne x4, x14, FAIL
     bne x3, x15, FAIL
